@@ -83,8 +83,8 @@ jobs:
       - name: Checkout Cypress repo
         uses: actions/checkout@v4
         with:
-          repository: 'alunai-lang/agregar_repo_cypress'
-          token: ${{ secrets.MI_GITHUB_TOKEN_REPOS }}
+          repository: 'brayan-ht/cypresstesting'
+          token: ${{ secrets.CYPRESS_PAT }}
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
